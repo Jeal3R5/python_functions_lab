@@ -14,7 +14,7 @@ sum_to(6)
 sum_to(10)
 
 
-# Exercise 2: Write a function called largest that takes a list of numbers as an arguement and returns the largest number in that list
+# Exercise 2: Write a function called largest that takes a list of numbers as an argument and returns the largest number in that list
 # largest([1, 2, 3, 4, 0]) #returns 4
 # largest([10, 4, 2, 231, 91, 54]) # returns 231
 
@@ -23,28 +23,27 @@ def largest(list):
   print("The largest element is:", max(list))
 
 largest([1, 2, 3, 4, 0])
-
 largest([10, 4, 2, 231, 91, 54])
 
 
 
 
 
-# 3. write a function named occurrances that takes two string elements as input and counts the number of occurances of the second string inside the first string.
-# occurances('fleep floop', 'e')  #returns 2
-# occurances('fleep floop', 'p')  #returns 2
-# occurances('fleep floop', 'ee')  #returns 1
-# occurances('fleep floop', 'fe')  #returns 0
+# 3. write a function named occurrences that takes two string elements as input and counts the number of occurrences of the second string inside the first string.
+# occurrences('fleep floop', 'e')  #returns 2
+# occurrences('fleep floop', 'p')  #returns 2
+# occurrences('fleep floop', 'ee')  #returns 1
+# occurrences('fleep floop', 'fe')  #returns 0
 
 # ----- My code -----
-def occurances(phrase, letter):
+def occurrences(phrase, letter):
   letter_count = phrase.count(letter)
   print(f"The count of {letter} is:", letter_count)
 
-occurances('fleep floop', 'e')
-occurances('fleep floop', 'p')
-occurances('fleep floop', 'ee')
-occurances('fleep floop', 'fe')
+occurrences('fleep floop', 'e')
+occurrences('fleep floop', 'p')
+occurrences('fleep floop', 'ee')
+occurrences('fleep floop', 'fe')
 
 
 
